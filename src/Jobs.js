@@ -1,11 +1,11 @@
 import React from 'react';
-import './index.css';
+import './index.scss';
 
 
 function Jobs() {
   return (
-    <div >
-  
+    <div className = 'jobs'>
+        <h1>Latest Posts</h1>
     </div>
   );
 }

@@ -4,8 +4,8 @@ import './index.scss';
 
 function Contact() {
   return (
-    <div >
-        <h1>Contact</h1>
+    <div className = 'contact'>
+        <h1>Contact Us Today</h1>
     </div>
   );
 }

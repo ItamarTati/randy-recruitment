@@ -4,8 +4,10 @@ import googleImage from './google-logo.jpeg'
 import Data from './Data'
 
 
+
+
 function jobBoard() {
-    return (
+    return ( Data.map((data) =>
       <div className="latest-jobs">
         
         <div className="job-img">
@@ -13,18 +15,16 @@ function jobBoard() {
         </div>
         
         <div className="main-details">
-            <p>Google </p>
-            <p>Junior-Mid Weight Designer</p>
-            <p>Salary</p>
+            <p>{data.companyName} </p>
+            <p>{data.jobTitle}</p>
+            <p>Based: {data.based}</p>
+          <p>Salary: {data.salary}</p>
+            {/* <p>Skills Required: {data.requiredSkills}</p> */}
         </div>
         
-        <div className="secondary-details">
-          <p>Based: London</p>
-          <p>Exprience Needed: Undisclosed</p>
-          <p>Contract: Fixed-term</p>
-        </div>
-      
-      </div>
+        <div className = 'applyButtonDiv'> <button className = 'applyButton' >Apply</button></div>
+        
+      </div>)
       
     );
   }

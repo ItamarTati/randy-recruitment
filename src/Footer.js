@@ -4,24 +4,24 @@ import './index.scss';
 
 function Footer() {
   return (
-    <footer class="footer">
-      <div class="footer__addr">
-        <h1 class="footer__logo">Randy Recruitment</h1>
+    <footer className="footer">
+      <div className="footer__addr">
+        <h1 className="footer__logo">Randy Recruitment</h1>
             
         <h2>Contact Us</h2>
         
         <address>
           &nbsp;5534 Somewhere In. The World 22193-10212
               
-          <a class="footer__btn" href="mailto:example@gmail.com">Email Us</a>
+          <a className="footer__btn" href="mailto:example@gmail.com">Email Us</a>
         </address>
       </div>
       
-      <ul class="footer__nav">
-        <li class="nav__item">
-          <h2 class="nav__title">Media</h2>
+      <ul className="footer__nav">
+        <li className="nav__item">
+          <h2 className="nav__title">Media</h2>
 
-          <ul class="nav__ul">
+          <ul className="nav__ul">
             <li>
               <a href="#">Online</a>
             </li>
@@ -36,10 +36,10 @@ function Footer() {
           </ul>
         </li>
         
-        <li class="nav__item nav__item--extra">
-          <h2 class="nav__title">Technology</h2>
+        <li className="nav__item nav__item--extra">
+          <h2 className="nav__title">Technology</h2>
           
-          <ul class="nav__ul nav__ul--extra">
+          <ul className="nav__ul nav__ul--extra">
             <li>
               <a href="#">Hardware Design</a>
             </li>
@@ -66,10 +66,10 @@ function Footer() {
           </ul>
         </li>
         
-        <li class="nav__item">
-          <h2 class="nav__title">Legal</h2>
+        <li className="nav__item">
+          <h2 className="nav__title">Legal</h2>
           
-          <ul class="nav__ul">
+          <ul className="nav__ul">
             <li>
               <a href="#">Privacy Policy</a>
             </li>
@@ -85,10 +85,10 @@ function Footer() {
         </li>
       </ul>
       
-      <div class="legal">
+      <div className="legal">
         <p>&copy; 2019 Something. All Right Reserved</p>
         
-        <span class="legal__links">
+        <span className="legal__links">
           <a href="#">Privacy Policy</a>
           
           <span></span>

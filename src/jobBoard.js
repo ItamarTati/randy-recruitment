@@ -15,15 +15,13 @@ function jobBoard() {
         </div>
         
         <div className="main-details">
-            <p>{data.companyName} </p>
+            <h3>{data.companyName} </h3>
             <p>{data.jobTitle}</p>
             <p>Based: {data.based}</p>
-          <p>Salary: {data.salary}</p>
-            {/* <p>Skills Required: {data.requiredSkills}</p> */}
+            <p>Salary: {data.salary}</p>
         </div>
         
-        <div className = 'applyButtonDiv'> <button className = 'applyButton' >Apply</button></div>
-        
+        <div className = 'applyButtonDiv'> <button  className="applyButton" >Apply</button></div>        
       </div>)
       
     );

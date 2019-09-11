@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fc2b6310726b6bd1f753e46075b0bcc0",
+    "revision": "8c88d5b3322fc5d609b7387193d2ca4d",
     "url": "/randy-recruitment/index.html"
   },
   {
-    "revision": "6884aaee78cbcecf49ab",
-    "url": "/randy-recruitment/static/css/main.a060b5cb.chunk.css"
+    "revision": "36664933c9d2e04cfa25",
+    "url": "/randy-recruitment/static/css/main.2f0b33f3.chunk.css"
   },
   {
     "revision": "8a7dee67eba9d219e70c",
     "url": "/randy-recruitment/static/js/2.963aae12.chunk.js"
   },
   {
-    "revision": "6884aaee78cbcecf49ab",
+    "revision": "36664933c9d2e04cfa25",
     "url": "/randy-recruitment/static/js/main.53c64324.chunk.js"
   },
   {

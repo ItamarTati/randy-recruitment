@@ -1,7 +1,7 @@
 let Data = [ 
             {'companyName' : 'Google',
             'jobTitle' : 'Front-End Developer',
-            'salary' : '£20,000-£30,000',
+            'salary' : '£20,000',
             'exprienceNeeded' : 'Entry',
             'requiredSkills' : 'JavaScript, React.js, Redux.js',
             'logo' : '',
@@ -9,7 +9,7 @@ let Data = [
             'based' : 'London'},
             {'companyName' : 'Google',
             'jobTitle' : 'Back-End Developer',
-            'salary' : '£20,000-£30,000',
+            'salary' : '£30,000',
             'exprienceNeeded' : 'Entry',
             'requiredskills' : 'JavaScript, Node.js, Express.js',
             'logo' : '',

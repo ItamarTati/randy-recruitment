@@ -11,7 +11,7 @@ body {
   background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
   min-width: 100%;
-  display: block;
+  display: grid;
 
 }
 
@@ -39,6 +39,7 @@ code {
 
 .header h1{
   color: #FFFFFF;
+  font-size: 25px;
 
 }
 
@@ -70,6 +71,7 @@ code {
   align-items: center;
   text-align: center;
   border: 0;
+  display: inline-flex;
 
   span {
      z-index: 1;
@@ -85,6 +87,7 @@ code {
      top: 0;
      transition: all 0.4s ease;
      background-color: rgba(9,9,121,1);
+     
   }
 
   &:before {
@@ -132,6 +135,8 @@ font-variant: normal;
 text-transform: capitalize;
 
 }
+
+
 .latest-jobs{
   width: 75%;
 	margin: 50px auto;
@@ -141,7 +146,6 @@ text-transform: capitalize;
   column-gap: 20px;
   position: relative;
   border-top: 2px solid #0D0D0D;
-  border-bottom: 2px solid #0D0D0D;
 }
 *, :after, :before {
   -webkit-box-sizing: inherit;
@@ -187,12 +191,7 @@ text-transform: capitalize;
 
 }
 
-@media only screen and (max-width: 600px) {
-  .applyButton {
-    padding: 0px 0px;
 
-  }
-}
 
 .applyButton:hover,
 .applyButton:focus {
@@ -223,6 +222,22 @@ text-transform: capitalize;
   background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAD1ElEQVRIiZWWXWwUVRTHf2d2Kt0NFijYmKaYWruF0IjZ9WFbhCilISjaQPQBIZoQeSCGFxNiYnzmwWcTrC99kKiJicZgShpBRCW0tLhtsNHSbTf0G5BuV4VtZ7o7x4ed2U63H9CT3OxvZs/9n3PPuXdmBDBYwZwkGDV5DkdiG0VkJ4DCzUS8K73SPL+ZnlZxIGcYU5TXDrY83zF2f/Ppo28fOda4q7FKYH1fb1/m/A9bW0dGRz9O9F6f8811luPiFRSux66tC9XH9nzyR3K0d8Z2ND9ymrJy2p8c0TeOvPv19mijsdxcPxuvXFLj5Z80VPxHOBJr/uK789+mrLxoysppynaHldP2y79qfWzP/tVKlBcTalBafOIGYCBEXz1woEpEEITCr8vRF6PUhWvfLPgvM0wAEZIKk/4WeIECZqDCTQJVzaMIqoppmmzatLHC71/MJsDPTeIAmeLliUp2NjN7OxgMVot4N0FREJjNZBgZGR18dIlWWJ6KdnzW+vl9QaCoRCj8ePFiduru3XO+OSzDK+8iwKiLNpz88vv232asXG7GdnTGbfb5S1d01/6Dp4v9i1n8ddNhyhS2GM+R9LzC0YYygTM7duw41NS0tzxgSKin5wZd17vP5hzno0S86wGr9MALAIAzxHqBLVLL7bpoLBQMBk8dPnz4WPO+pmcqKytLA4GAARjZbNaYmpqis7MzfeFCR+v4xOSZRG9XoYeaBKlZflluWWLlTS1vnRsYmxr29nzhoPk4ZeV0YHRCj5/6oCcciZUDhg5TpsO87tddFKA20mBG9uz7dCL94JZ3alN2Tv2cD7jAY9NpPfLeyYuR3XtNAB3iCU+v0IO6aCxEoOSEEdpQv622ZvdLjQ3bWYMlEoNc7Y635Szrls79dzYR75yDhYcdihx96v3WvSWV4UNpoH0t6gBboaKJE9ND49ht76SBNryD5ka458w9zIpZAvoYgsKCn4913gKz9D7ubvLXP279dS3vLY8xWMoKzE8MIqENfa62UQiwbt6ctIZv3MunofmUFDc1H6uX9lLO5cBJjaee/vCryeZLCuAUAvT3X3Wy90bvquq4N6cg7OdCAkt53nLgn4k4JaXNWYiCr8mAodn5DFlrkJLSqlXr75ksZjtjI9NDcREuq2LjPa5dcwSS9thAet2zL7iNExCvey4rbt2Xsv33ODI38/uVfeK9Rh1/ABS6H1795njgyc02svLHwHKmDsb8n7/YUhLs9hL2FuketIZKoBx0J7BtLeI+uwVyE0gNxrvuwOIelINWA/+C9DwiXxYaUMxUuxd3AOd/zCj0/ouDKyIAAAAASUVORK5CYII=") no-repeat left center transparent;
   background-size: 100% 100%;
 }
+
+@media only screen and (max-width: 600px) {
+  .latest-jobs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "area-1 area-2" "area-3 area-4";
+  }
+  .applyButtonDiv{
+    grid-area: area-4;
+  }
+
+
+}
+
+
 
 
 .contact{

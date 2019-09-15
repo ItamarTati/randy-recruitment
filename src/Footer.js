@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer__addr">
-        <h1 className="footer__logo">Randy Recruitment</h1>
+        {/* <h1 className="footer__logo">Randy Recruitment</h1>
             
         <h2>Contact Us</h2>
         
@@ -94,7 +94,7 @@ function Footer() {
           <span></span>
           
           <a href="#">Terms of Use</a>
-        </span>
+        </span> */}
       </div>
     </footer>
   );

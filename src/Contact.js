@@ -13,10 +13,6 @@ function Contact() {
         <p type="Email:"><input placeholder="Let us know how to contact you back.."></input></p>
         <p type="Message:"><input placeholder="What would you like to tell us.."></input></p>
         <button>Send Message</button>
-        <div>
-          <span class="fa fa-phone"></span>001 1023 567
-          <span class="fa fa-envelope-o"></span> contact@company.com
-        </div>
       </form>
       </div>
     </div>
